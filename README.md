@@ -26,4 +26,4 @@
 
 |Original image| Synthesized image | Derained Image|
 |---|:---:|---|
-|![original_img](./IMG_4133_original.jpg)|![synth_image](IMG_4133_synth.jpg)|![derined_image](IMG_4133_derained.jpg)|
+|![original_img](./samples/IMG_4133_original.jpg)|![synth_image](./samples/IMG_4133_synth.jpg)|![derined_image](./samples/IMG_4133_derained.jpg)|
