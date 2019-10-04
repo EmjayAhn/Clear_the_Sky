@@ -26,4 +26,5 @@
 
 |Original image| Synthesized image | Derained Image|
 |---|:---:|---|
-|![original_img](./samples/IMG_4133_original.jpg)|![synth_image](./samples/IMG_4133_synth.jpg)|![derined_image](./samples/IMG_4133_derained.jpg)|
+|![original_img](./samples/IMG_4133_original.jpg)|![synth_image](./samples/IMG_4133_synth.jpg)|![derained_image](./samples/IMG_4133_derained.jpg)|
+|![original_img](./samples/IMG_4014_original.jpg)|![synth_image](./samples/IMG_4014_synth.jpg)|![derained_image](./samples/IMG_4014_derained.jpg)|
