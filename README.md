@@ -25,5 +25,5 @@
 - Image was taken by myself @ Banpo, 반포한강공원
 
 |Original image| Synthesized image | Derained Image|
-|---|:---:|---:|
+|---|:---:|---|
 |![original_img](./IMG_4133_original.jpg)|![synth_image](IMG_4133_synth.jpg)|![derined_image](IMG_4133_derained.jpg)|
