@@ -16,7 +16,7 @@ def gen_rain(img_path, img_size):
     
     # random noise
     black = np.zeros((img_size[1], img_size[0]), dtype=np.int8)
-    black = random_noise(black, mode='s&p', salt_vs_pepper=0.1)
+    black = random_noise(black, mode='s&p', salt_vs_pepper=0.3)
     black = 100 * black
     black = black.astype(np.uint8)
     black_img = Image.fromarray(black)
@@ -34,11 +34,12 @@ def gen_rain(img_path, img_size):
     
     # synthesize
     rain_layer = gray2rgb(rain_layer)
-    rain_img = np.minimum(resized_image + rain_layer, 255)
+    rain_img = np.minimum(np.array(resized_image, dtype=np.uint16) + rain_layer, 255)
     
     return rain_img, np.array(resized_image)
 
 
 def save_img(numpy_img, path, filename):
+    numpy_img = np.array(numpy_img, dtype=np.uint8)
     img = Image.fromarray(numpy_img)
     img.save(path + filename)
